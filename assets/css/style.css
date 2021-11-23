@@ -1,0 +1,50 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+*:focus {
+    outline:none;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+html,body {
+	background: #000;
+	color: #FFF;
+	height: 100%;
+
+}
+
+body {
+	/*background-image: linear-gradient(135deg,#0F2027 0%,#203A43 50%,#2C5364 100%);*/
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Comfortaa', sans-serif;
+	font-weight: normal;
+}
+
+a {
+	color: #FFF;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	font-size: 3.75rem;
+	margin-top: 1.5rem;
+}
+
+ul li {
+	margin-right: 1.5rem;
+}
+
+ul li:last-of-type {
+	margin-right: 0;
+}
